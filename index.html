@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>元朗區中學STEM教育綜合概覽</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            color: #333;
+            background-color: #f9fafb;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .school-card {
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        .school-header {
+            padding: 1.25rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .school-content {
+            padding: 1.5rem;
+        }
+        .section-title {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+        }
+        .achievement-item {
+            margin-bottom: 0.5rem;
+        }
+        .band-tag {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: white;
+        }
+        .band-1 {
+            background-color: #3b82f6;
+        }
+        .band-2 {
+            background-color: #10b981;
+        }
+        .band-3 {
+            background-color: #f59e0b;
+        }
+        @media print {
+            body {
+                background-color: white;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+            }
+            .school-card {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="mb-8 text-center">
+            <h1 class="text-3xl font-bold mb-2">元朗區中學STEM教育綜合概覽(不包括直資中學)</h1>
+          
+            <div class="text-gray-600 border-2 border-yellow-200 bg-yellow-50 p-4 rounded-md mb-6 text-sm text-left">
+                <p><strong>重要提示：</strong>本概覽僅供參考，鼓勵家長及學生瀏覽各校官方網站獲取最新、最全面的資訊。本概覽資料基於公開渠道獲取，僅作基本參考用途。</p>
+                <ul class="list-disc pl-5 mt-2">
+                    <li><a href="https://ccckyc.edu.hk/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">中華基督教會基元中學 (CCC Kei Yuen College)</a></li>
+                    <li><a href="https://www.skhbbss.edu.hk/rIndex" target="_blank" rel="noopener" class="text-blue-400 hover:underline">聖公會白約翰會督中學</a></li>
+                    <li><a href="https://www.hkmakslo.edu.hk/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">香港管理專業協會羅桂祥中學</a></li>
+                    <li><a href="https://web.lktmc.edu.hk/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">東華三院盧幹庭紀念中學</a></li>
+                    <li><a href="https://www.ylmass.edu.hk/web/en" target="_blank" rel="noopener" class="text-blue-400 hover:underline">元朗商會中學</a></li>
+                    <li><a href="https://www.keilong.edu.hk/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">中華基督教會基朗中學</a></li>
+                    <li><a href="https://www.qos.edu.hk/tc/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">伊利沙伯中學舊生會中學</a></li>
+                    <li><a href="http://www.stfa-yyc.edu.hk/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">順德聯誼總會翁祐中學</a></li>
+                    <li><a href="https://sphrc.edu.hk/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">十八鄉鄉事委員會公益社中學</a></li>
+                    <li><a href="https://www.jccssyl.edu.hk/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">元朗裘錦秋中學</a></li>
+                    <li><a href="https://www.tpk.edu.hk/tc/" target="_blank" rel="noopener" class="text-blue-400 hover:underline">博愛醫院鄧佩瓊紀念中學</a></li>
+                </ul>
+            </div>
+
+        </header>
+
+        <main>
+            <!-- 中華基督教會基元中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">1. 中華基督教會基元中學</h2>
+                        <span class="band-tag band-1">Band 1C 英文中學</span>
+                    </div>
+                    <p class="text-gray-600">CCC Kei Yuen College</p>
+                    <li class="text-gray-600">初中(中一至中三)科目：
+                    中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                    三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、生活與社會、音
+                    樂、視覺藝術、體育、設計與科技</li>
+                    <li class="text-gray-600">高中(中四至中六)選修科目：
+                    中國語文、英國語文、數學、數學延伸部分單元一、數學延伸部分單元二、物理、化
+                    學、生物、中國歷史、經濟、企業會計與財務概論、地理、歷史、資訊及通訊科技、視
+                    覺藝術、體育、公民與社會發展科</li>
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">Hong Kong Mathematics & Math Olympiad Challenge 2024（香港兒童數學協會）：金牌 2人、銀牌 5人、銅牌 3人</li>
+                            <li class="achievement-item">第三屆粵港澳大灣區 AI 技能競技賽及科技創新挑戰賽（大灣區教育創新研究院）：銅獎 5人</li>
+                            <li class="achievement-item">中華基督教會香港區會中學校長會粵港澳 STEM/AI 挑戰賽（香港區賽）：銅獎 5人</li>
+                            <li class="achievement-item">第一屆 AI 奧數（數霸盃）世界公開賽（世界科技工程數理協會）：銅牌 1人</li>
+                            <li class="achievement-item">2024 雞蛋撞地球比賽（香港數理教育學會）：三等獎 4人</li>
+                            <li class="achievement-item">United Nations SDGs eTournament (Greater China 2024)（田家炳基金會）：優異獎 4人</li>
+                            <li class="achievement-item">The "Safe Cracking" International Physics Tournament 2025（香港資優教育學苑）：優異獎 4人</li>
+                            <li class="achievement-item">數碼宇宙守護者 2024（香港互聯網註冊管理有限公司及 SEED Foundation）：最具創意獎、最佳視覺效果獎</li>
+                            <li class="achievement-item">AIAT 2024 Aerosim Glider Launch Challenge - Longreach Award：季軍 5人</li>
+                            <li class="achievement-item">渠務署特色渠蓋設計比賽（渠務署）：季軍 1人</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校舉辦STEM Week活動，讓學生有機會接觸各類STEM相關內容。創新科技設施包括Future Aviator Aerosim x Boeing ForeFlight Mobile Certification等課程支援學生。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 聖公會白約翰會督中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">2. 聖公會白約翰會督中學</h2>
+                        <span class="band-tag band-1">Band 1C 英文中學</span>
+                    </div>
+                    <p class="text-gray-600">SKH Bishop Baker Secondary School</p>
+                    <li class="text-gray-600">初中(中一至中三)科目：
+                    中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                    三）、生物（中三）、中國歷史、地理、歷史、電腦、普通話、音樂、視覺藝術、體
+                    育、設計與科技、宗教（基督教）、生活教育</li>
+                                        <li class="text-gray-600">高中(中四至中六)選修科目：
+                    中國語文、英國語文、數學、數學延伸部分單元二、物理、化學、生物、組合科學（物
+                    理、化學）、組合科學（生物、化學）、中國歷史、經濟、企業會計與財務概論、地
+                    理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科</li>
+                  
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item"><strong>數學類成就</strong>：
+                                <ul class="ml-5">
+                                    <li>AI 奧數（數霸盃）世界公開賽決賽：金獎、銀獎及銅獎多項</li>
+                                    <li>亞洲國際數學奧林匹克公開賽：銅獎</li>
+                                    <li>大灣區資優數學競賽初賽（澳門）：金、銀、銅獎多項</li>
+                                    <li>希望杯國際數學邀請賽（港澳賽區）：銀獎、銅獎多項</li>
+                                    <li>華夏盃全國數學奧林匹克邀請賽（總決賽）：二等獎、三等獎多項</li>
+                                </ul>
+                            </li>
+                            <li class="achievement-item"><strong>科學、STEAM及跨學科類成就</strong>：
+                                <ul class="ml-5">
+                                    <li>第六屆大灣區 STEAM 卓越獎 2024（香港）：科學實驗室（高中組）金獎</li>
+                                    <li>第26屆香港青少年科技創新大賽 2024：中學研究及發明-化學及材料 高中組優異獎</li>
+                                    <li>國際生物奧林匹克－香港區比賽 2023：優異獎</li>
+                                    <li>香港中學健康展覽報告比賽：銀獎</li>
+                                </ul>
+                            </li>
+                            <li class="achievement-item"><strong>工程與機械人類成就</strong>：
+                                <ul class="ml-5">
+                                    <li>First Lego League 2022-2023 香港區賽：全場總冠軍</li>
+                                    <li>2023 First Lego League Asia Open Championship：Robot Design Award</li>
+                                    <li>Central Asia First Championship（哈薩克斯坦）：Engineering Excellence Award</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校設有鍾逸民資優教育中心、聖馬提亞生命教育中心、健康教育資源中心、生物科技中心、STEAM教室、創新科技互動學習中心等。STEM課程豐富多元，並有機械人工作坊及校隊，帶領學生參與國際比賽。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 香港管理專業協會羅桂祥中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">3. 香港管理專業協會羅桂祥中學</h2>
+                        <span class="band-tag band-1">Band 1C 英文中學</span>
+                    </div>
+                    <p class="text-gray-600">The Hong Kong Management Association K S Lo College</p>
+                    <li>初中(中一至中三)科目：
+                    中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                    三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、生活與社會、音
+                    樂、視覺藝術、體育、設計與科技</li>
+                    <li>高中(中四至中六)選修科目：
+                    中國語文、英國語文、數學、數學延伸部分單元一、數學延伸部分單元二、物理、化
+                    學、生物、中國歷史、經濟、企業會計與財務概論、地理、歷史、資訊及通訊科技、視
+                    覺藝術、體育、公民與社會發展科</li>
+                
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">國際編程精英挑戰賽 2024-25 港澳台總決賽（中學組）香港賽區 - 新界西：亞軍</li>
+                            <li class="achievement-item">數據庫 2025 比賽：2位學生獲獎</li>
+                            <li class="achievement-item">2025 心繫家國 3.0 傑出華人虛擬薈設計比賽：優異獎</li>
+                            <li class="achievement-item">第七屆香港青少年巴爾幹數學大賽：多名學生獲得銀獎、銅獎及優異獎</li>
+                            <li class="achievement-item">2023-2024 香港青少年數學創意解難挑戰賽：女子組多次獲得優異獎</li>
+                            <li class="achievement-item">中國數學奧林匹克競賽：學生獲得二等獎、三等獎多項</li>
+                            <li class="achievement-item">「華夏盃」全國數學奧林匹克邀請賽：多名學生獲得二等獎及三等獎</li>
+                            <li class="achievement-item">全港中小學環保風力發電STEAM創作大賽2023：「最環保設計計劃」季軍</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校設有STEM教育中心、英語學習閣、3間電腦室和5間科學實驗室。Happydemic課程以科技改善生活為主題，融合工程、編程、DNA、AI及大數據等元素，且與理工大學及外部機構合作，提供專業支援。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 東華三院盧幹庭紀念中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">4. 東華三院盧幹庭紀念中學</h2>
+                        <span class="band-tag band-1">Band 1C 英文中學</span>
+                    </div>
+                    <p class="text-gray-600">TWGHs Lo Kon Ting Memorial College</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、生活與社會、音
+                        樂、視覺藝術、體育、設計與科技</li>
+                    <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、數學延伸部分單元一、數學延伸部分單元二、物理、化
+                        學、生物、中國歷史、經濟、企業會計與財務概論、地理、歷史、資訊及通訊科技、視
+                        覺藝術、體育、公民與社會發展科 </li>
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">資訊科技大師班計劃：獲「STEM Proactive and Inquiring Minds Award (Secondary)」獎項</li>
+                            <li class="achievement-item">職業指南針手機應用程式設計比賽：獲「STEM Talent Award」</li>
+                            <li class="achievement-item">元朗區青年網絡計劃 STEM 工作坊暨比賽：優異獎</li>
+                            <li class="achievement-item">InnoSTEMer教育體驗營暨MakeX機械人挑戰賽：初中組銀獎</li>
+                            <li class="achievement-item">S.T.E.A.M. 編碼填「式」比賽：初中組冠軍、季軍</li>
+                            <li class="achievement-item">建造業職安健短片比賽2019-2020：中學組優異獎、亞軍</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校設有校本初中STEM教育計劃，由優質教育基金資助，引發學生學習STEM相關科目的興趣；培育學生的創意、協作和解難能力。設備包括3D打印機等現代科技教具。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 元朗商會中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">5. 元朗商會中學</h2>
+                        <span class="band-tag band-1">Band 1C 英文中學</span>
+                    </div>
+                    <p class="text-gray-600">Yuen Long Merchants Association Secondary School</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、生活與社會、音
+                        樂、視覺藝術、體育、設計與科技 </li>
+                                            <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、數學延伸部分單元一、數學延伸部分單元二、物理、化
+                        學、生物、中國歷史、經濟、企業會計與財務概論、地理、歷史、資訊及通訊科技、視
+                        覺藝術、體育、公民與社會發展科</li>
+                
+                
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">社企民間高峰會 2023 — 青年動力・社區創新賽：亞軍、季軍</li>
+                            <li class="achievement-item">HKICPA/HKABE 聯合獎學金（商業、會計與財務概論科）</li>
+                            <li class="achievement-item">Math Concept Education MathConceptition (香港區) 2024 個人賽：金獎</li>
+                            <li class="achievement-item">香港數學高才選拔賽（第26屆）：三等獎</li>
+                            <li class="achievement-item">香港數學創意解難比賽（中學組）：銅獎</li>
+                            <li class="achievement-item">港澳數學奧林匹克公開賽（HKMO Open）：銀牌、銅牌</li>
+                            <li class="achievement-item">華夏盃全國數學奧林匹克邀請賽 2024：一等獎、二等獎、三等獎</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校設有Microsoft Future Library、Microsoft AI Innovative Lab、Makers' Space等現代化設施。初中設計與科技、電腦素養、科學科都引入STEAM教育，學生可接觸到micro:bit、3D打印機、鐳射切割機等。特色項目包括利用ChatGPT開發索書系統、在Minecraft重現香港故宮文化博物館等創新應用。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 中華基督教會基朗中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">6. 中華基督教會基朗中學</h2>
+                        <span class="band-tag band-2">Band 2A 中文中學(另設有個別英文班)</span>
+                    </div>
+                    <p class="text-gray-600">CCC Kei Long College</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、音樂、視覺藝
+                        術、體育、設計與科技、生活與社會 </li>
+                                            <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、物理、化學、生物、中國歷史、經濟、企業會計與財務概
+                        論、地理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科</li>
+                                        
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">國際初中科學奧林匹克2025 香港選拔賽：三等獎</li>
+                            <li class="achievement-item">第三屆粵港澳大灣區技能競技賽 2024 星際探索：大銀獎</li>
+                            <li class="achievement-item">e-STEAM@Home 獎勵計劃2024：銀獎、銅獎共23人</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校配備全校無線寬頻網絡、超過100部平板電腦、全校課室安裝無線投影設備。STEAM教育組期望能增強學生綜合和應用跨學科知識與技能的能力，提升創新方面的潛能。學校提供包含無人機、AI機器人、AR和VR技術等的體驗活動。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 伊利沙伯中學舊生會中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">7. 伊利沙伯中學舊生會中學</h2>
+                        <span class="band-tag band-2">Band 2A-2B 中文中學(另設有個別英文班)</span>
+                    </div>
+                    <p class="text-gray-600">Queen Elizabeth School Old Students' Association Secondary School</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、音樂、視覺藝
+                        術、體育、設計與科技、生活與社會</li>
+                    <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、物理、化學、生物、中國歷史、經濟、企業會計與財務概
+                        論、地理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科</li>
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">獲得「優質數學教育團體獎—金獎」</li>
+                            <li class="achievement-item">《大灣盃》粵港澳大灣區數學競賽預選賽2025：二等獎、三等獎多項</li>
+                            <li class="achievement-item">2024香港學界數學及奧數精英賽：銀獎、銅獎多項</li>
+                            <li class="achievement-item">第十四屆中學數學創意解題比賽：鑽獎</li>
+                            <li class="achievement-item">華夏盃全國數學奧林匹克邀請賽：二等獎</li>
+                            <li class="achievement-item">第二十六屆香港青少年數學精英選拔賽：三等獎</li>
+                            <li class="achievement-item">中學生科學 ISEF 香港區選拔賽：成功入選香港代表，將於2025年5月赴美參賽</li>
+                            <li class="achievement-item">國際學生科技大賽2024（ISPC）：冠軍及科學創新獎、季軍</li>
+                            <li class="achievement-item">全國青少年科技創新大賽：一等獎</li>
+                            <li class="achievement-item">香港中學生科學比賽：高中組冠軍、初中組季軍</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校設有STEAM中心、基因技術分子生物實驗室、STEM學習室、Mac實驗室等先進設施。學校曾獲優質教育基金撥款$850,000，推行「校本初中STEM課程發展計劃」，在初中課程、校園設施等全面推動STEM教育。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 順德聯誼總會翁祐中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">8. 順德聯誼總會翁祐中學</h2>
+                        <span class="band-tag band-2">Band 2A 中文中學 (另設有個別英文班)</span>
+                    </div>
+                    <p class="text-gray-600">STFA Yung Yau College</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、音樂、視覺藝
+                        術、體育、設計與科技、生活與社會</li>
+                    <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、物理、化學、生物、中國歷史、經濟、企業會計與財務概
+                        論、地理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科</li>
+                
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">優質數學教育團體獎 — 金獎</li>
+                            <li class="achievement-item">2024 WMI世界數學邀請賽全球總決賽：金獎、銀獎</li>
+                            <li class="achievement-item">2024 GMEC全球數學精英賽：中三級、中四級全港冠軍，多項金銀銅獎</li>
+                            <li class="achievement-item">2024 HKIMO香港國際數學競賽初賽：全港冠軍，金獎八項，銀獎二十項，銅獎十八項</li>
+                            <li class="achievement-item">2024「大灣盃」粵港澳大灣區數學競賽總決賽：探花獎、二等獎多項</li>
+                            <li class="achievement-item">第一屆 AI 奧數（數霸盃）世界公開賽決賽：金牌獎</li>
+                            <li class="achievement-item">第43屆北京青少年科技創新大賽：青少年科技創新成果一等獎、二等獎及專項獎多項</li>
+                            <li class="achievement-item">第26屆香港青少年科技創新大賽：高中化學及材料三等獎</li>
+                            <li class="achievement-item">BIM建築信息模擬大賽：全港季軍</li>
+                            <li class="achievement-item">加拿大國際發明創新大賽：金牌獎五項、銀牌獎四項</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校將全港首創的「電腦立體動畫科」納入校本初中課程。學校多次成功申請優質教育基金，以「具效能的STEM學習社群的建構及推展----教學、應用、回饋、提升學習效能」為主題發展校本STEM教育。研發成果如「樹膠布」等亦榮獲多個獎項。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 十八鄉鄉事委員會公益社中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">9. 十八鄉鄉事委員會公益社中學</h2>
+                        <span class="band-tag band-2">Band 2B 中文中學</span>
+                    </div>
+                    <p class="text-gray-600">SPHRC Kung Yik She Secondary School</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、音樂、視覺藝
+                        術、體育、設計與科技、生活與社會</li>
+                    <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、物理、化學、生物、中國歷史、經濟、企業會計與財務概
+                        論、地理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科</li>   
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">「華夏盃」全國數學奧林匹克邀請賽2025（香港賽區）初賽：中學三年級組一等獎</li>
+                            <li class="achievement-item">2025港澳數學奧林匹克公開賽暨亞洲國際數學奧林匹克公開賽初賽：中學三年級金獎</li>
+                            <li class="achievement-item">國際聯校學科評估及比賽中心：多名學生獲榮譽獎狀、優異獎狀及優良獎狀</li>
+                            <li class="achievement-item">香港中文大學數學系數學科學研究所數學英才精進課程：優良及優異獎項多名</li>
+                            <li class="achievement-item">教育局中小學數學應用創意信息圖設計比賽（2023/24）：高中組銀獎及銅獎</li>
+                            <li class="achievement-item">香港機械奧運會2025：手搖發電機械人拉雪橇比賽冠軍及亞軍、四式接力泳賽季軍</li>
+                            <li class="achievement-item">趣味科學比賽「珠璣滿紙」：低班組及高班組挑戰組一等獎、三等獎</li>
+                            <li class="achievement-item">教育局「化學家在線」自學獎勵計劃2022-2023：鑽石獎、白金獎及金獎多名</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校設有兩個資訊科技學習中心，全校已經覆蓋無線網絡；設有電子白板系統、課室已裝設Apple TV；供學生借用平板電腦，讓學生在課堂上進行互動學習。學校也定期舉辦「元朗區科學與科技培訓課程暨海、陸、空探索比賽」，服務區內學生。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 元朗裘錦秋中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">10. 元朗裘錦秋中學</h2>
+                        <span class="band-tag band-2">Band 2B 中文中學</span>
+                    </div>
+                    <p class="text-gray-600">Ju Ching Chu Secondary School (Yuen Long)</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、音樂、視覺藝
+                        術、體育、設計與科技、生活與社會 </li>
+                    <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、物理、化學、生物、中國歷史、經濟、企業會計與財務概
+                        論、地理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科 </li>
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">2024-2025年度人工智能創新比賽：銀獎</li>
+                            <li class="achievement-item">穗港澳青少年科技教育活動 — 無人機足球比賽：兩支隊伍分別進入決賽32強及16強</li>
+                            <li class="achievement-item">中國香港無人機運動總會全港校際無人機足球比賽（國慶盃）：小組出線，進入八強</li>
+                            <li class="achievement-item">「新能源新世代2024」太陽能車比賽：全場總亞軍、最具創意科技獎亞軍、最佳能源效益獎亞軍、最佳隊衣設計獎</li>
+                            <li class="achievement-item">港鐵「STEM創未來」挑戰：「最優秀隊伍大獎」</li>
+                            <li class="achievement-item">亞太資訊及通訊科技獎：優異獎</li>
+                            <li class="achievement-item">第二屆「新能源新世代」活動：最佳能源效益獎季軍</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校太陽能車隊OZMOST Alpha製作了一輛參考一級方程式賽車外型的可載人太陽能電動車，展現學校對綠色能源的專注發展。學校亦積極發展無人機教育，讓學生透過密集訓練提升無人機操控技術，培養團隊合作與競技精神，展現創新能力。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 博愛醫院鄧佩瓊紀念中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">11. 博愛醫院鄧佩瓊紀念中學</h2>
+                        <span class="band-tag band-2">Band 2B 中文中學</span>
+                    </div>
+                    <p class="text-gray-600">POH Tang Pui King Memorial College</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、音樂、視覺藝
+                        術、體育、設計與科技、生活與社會 </li>
+                        <li>高中(中四至中六)選修科目：
+                            中國語文、英國語文、數學、物理、化學、生物、中國歷史、經濟、企業會計與財務概
+                            論、地理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科 </li>
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item">參與第二十五屆香港青少年科技創新大賽</li>
+                            <li class="achievement-item">航空科學知識探知活動</li>
+                            <li class="achievement-item">元朗區青年網絡計劃STEM工作坊暨比賽</li>
+                            <li class="achievement-item">micro:bit 多足機械人同樂日活動</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校重視STEM教育，全新「STEM創客坊」已於上學年完成改建工程，並舉辦不同培訓活動。學校在「優質教育基金」(QEF)的資助下推行「校本STEM教育計劃」，並設有micro:bit多足機械人編程教學，讓學生通過實踐進行學習，培養創新思維和解決問題的能力。</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 天水圍官立中學 -->
+            <div class="school-card">
+                <div class="school-header bg-blue-50">
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-2xl font-bold">12. 天水圍官立中學</h2>
+                        <span class="band-tag band-2">Band 2B 中文中學</span>
+                    </div>
+                    <p class="text-gray-600">Tin Shui Wai Government Secondary School</p>
+                    <li>初中(中一至中三)科目：
+                        中國語文、英國語文、數學、綜合科學（中一、中二）、物理（中三）、化學（中
+                        三）、生物（中三）、中國歷史、地理、歷史、經濟、電腦、普通話、音樂、視覺藝
+                        術、體育、設計與科技、生活與社會</li>
+                                            <li>高中(中四至中六)選修科目：
+                        中國語文、英國語文、數學、物理、化學、生物、中國歷史、經濟、企業會計與財務概
+                        論、地理、歷史、資訊及通訊科技、視覺藝術、體育、公民與社會發展科</li>
+                
+                </div>
+                <div class="school-content">
+                    <div>
+                        <h3 class="section-title"><i class="fas fa-trophy text-yellow-500"></i> 近2年STEM成就</h3>
+                        <ul class="list-disc ml-5 text-gray-700">
+                            <li class="achievement-item"><strong>數學奧林匹克及相關比賽成績</strong>：
+                                <ul class="ml-5">
+                                    <li>「華夏盃®」全國數學奧林匹克邀請賽 2024：中一、中二、中三組三等獎多項</li>
+                                    <li>2024 港澳數學奧林匹克公開賽《港澳盃 HKMO OPEN》：各級銀牌、銅牌多項</li>
+                                    <li>第一屆 AI 奧數（數霸盃）世界公開賽 決賽：中一、中二、中三組銅獎</li>
+                                    <li>「華夏盃®」全國數學奧林匹克邀請賽 2024（華南賽區）晉級賽：中二組、中三組三等獎</li>
+                                    <li>2024 亞洲國際數學奧林匹克公開賽 (AIMO Open) 晉級賽：各級銀獎、銅獎多項</li>
+                                    <li>香港國際數學競賽（香港賽區）：中一、中二、中三組銀獎、銅獎多項</li>
+                                </ul>
+                            </li>
+                            <li class="achievement-item"><strong>無人機比賽成績</strong>：
+                                <ul class="ml-5">
+                                    <li>國際專業無人機學會2024全港校際模擬飛行挑戰賽中學組（中階）：傑出表現獎、優異獎多項</li>
+                                </ul>
+                            </li>
+                            <li class="achievement-item">「扣叮大師」編程比賽：銀獎、銅獎</li>
+                            <li class="achievement-item">人工智能教育積極推動優秀獎</li>
+                        </ul>
+                        
+                        <h3 class="section-title mt-4"><i class="fas fa-microscope text-blue-500"></i> STEM教育特色</h3>
+                        <p class="text-gray-700">學校大力推動STEM教育，裝備學生應對未來急速的經濟、科學及科技發展所帶來的轉變和挑戰。學校舉辦STEM DAY活動，引入AR2VR虛擬實境導覽、AI Nova視覺智能車以及AI垃圾分類系統等先進技術，提升學生對科技的興趣和認識。</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-10 text-center text-gray-500 text-sm">
+            <p>本概覽最後更新時間：2025年5月</p>
+            <p>資料來源：各校官方網站及公開渠道資訊</p>
+        </footer>
+    </div>
+</body>
+</html>
